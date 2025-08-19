@@ -1,5 +1,6 @@
+def exibir_dashboard():
+    print("Dashboard carregado!")
+
 def main():
     print("Sistema iniciado")
-
-if __name__ == "__main__":
-    main()
+    exibir_dashboard()
