@@ -4,12 +4,13 @@ def exibir_dashboard():
 def cadastrar_usuario(nome):
     print(f"Usuário {nome} cadastrado com sucesso!")
 
+# hotfix-login: corrige mensagem de login
 def login(usuario, senha):
     print(f"Tentando logar usuário {usuario}...")
     if senha == "123":
-        print("Login bem-sucedido!")
+        print("Login bem-sucedido! 🟢")
     else:
-        print("Senha incorreta.")
+        print("Senha incorreta ❌")
 
 def enviar_notificacao(msg):
     print(f"Notificação enviada: {msg}")
