@@ -29,6 +29,9 @@ def ajuda():
 def configuracoes():
     print("Abrindo configurações do sistema...")
 
+def gerar_relatorios_avancados():
+    print("Relatórios avançados gerados!")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -40,3 +43,4 @@ def main():
     pesquisar_usuario("Maria")
     ajuda()
     configuracoes()
+    gerar_relatorios_avancados()
