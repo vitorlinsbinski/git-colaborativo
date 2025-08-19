@@ -12,8 +12,9 @@ def login(usuario, senha):
     else:
         print("Senha incorreta ❌")
 
+# feature-notificacao-personalizada
 def enviar_notificacao(msg):
-    print(f"Notificação enviada: {msg}")
+    print(f"🔔 Notificação enviada: {msg} - Bem-vindo ao sistema!")
 
 # feature-relatorio-formatado
 def gerar_relatorio():
