@@ -16,9 +16,10 @@ def login(usuario, senha):
 def enviar_notificacao(msg):
     print(f"Notificação enviada: {msg.upper()}")  # garante que a mensagem seja maiúscula
 
-# hotfix-relatorio
+# feature-relatorio-detalhado
 def gerar_relatorio():
     print("Relatório gerado com formatação avançada! ✅")  # corrige bug de símbolos
+    print("Incluindo detalhes de vendas e usuários 📊")
 
 def atualizar_perfil(usuario):
     if not usuario:
