@@ -16,7 +16,7 @@ def login(usuario, senha):
 def enviar_notificacao(msg):
     print("🔔 Nova mensagem recebida no sistema!")
     print(f"Notificação enviada com sucesso: {msg.upper()} 📢")  # garante que a mensagem seja maiúscula
-    print("***************")
+    print("-------------")
 
 # feature-relatorio-detalhado
 def gerar_relatorio():
