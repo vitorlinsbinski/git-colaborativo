@@ -18,7 +18,7 @@ def enviar_notificacao(msg):
 
 # feature-relatorio-detalhado
 def gerar_relatorio():
-    print("Relatório gerado com formatação avançada!")
+    print("Relatório gerado com formatação avançada! ✅")  # corrige bug de símbolos
     print("Incluindo detalhes de vendas e usuários 📊")
 
 def atualizar_perfil(usuario):
