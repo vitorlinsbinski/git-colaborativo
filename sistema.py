@@ -11,8 +11,12 @@ def login(usuario, senha):
     else:
         print("Senha incorreta.")
 
+def enviar_notificacao(msg):
+    print(f"Notificação enviada: {msg}")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
     cadastrar_usuario("Maria")
     login("Vitor", "123")
+    enviar_notificacao("Bem-vindo!")
