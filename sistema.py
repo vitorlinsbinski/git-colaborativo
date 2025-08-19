@@ -12,8 +12,9 @@ def login(usuario, senha):
     else:
         print("Senha incorreta ❌")
 
+# hotfix-notificacao
 def enviar_notificacao(msg):
-    print(f"Notificação enviada: {msg}")
+    print(f"Notificação enviada: {msg.upper()}")  # garante que a mensagem seja maiúscula
 
 # feature-relatorio-formatado
 def gerar_relatorio():
