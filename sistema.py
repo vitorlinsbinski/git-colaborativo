@@ -26,6 +26,9 @@ def pesquisar_usuario(nome):
 def ajuda():
     print("Exibindo tela de ajuda...")
 
+def configuracoes():
+    print("Abrindo configurações do sistema...")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -36,3 +39,4 @@ def main():
     atualizar_perfil("Vitor")
     pesquisar_usuario("Maria")
     ajuda()
+    configuracoes()
