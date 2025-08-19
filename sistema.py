@@ -24,7 +24,12 @@ def atualizar_perfil(usuario):
     print(f"Perfil do usuário {usuario} atualizado.")
 
 def pesquisar_usuario(nome):
-    print(f"Pesquisando usuário: {nome}")
+    # Corrige bug: exibe mensagem se usuário não for encontrado
+    usuarios_cadastrados = ["Maria", "Vitor"]
+    if nome in usuarios_cadastrados:
+        print(f"Pesquisando usuário: {nome}")
+    else:
+        print(f"Usuário {nome} não encontrado!")
 
 def ajuda():
     print("Exibindo tela de ajuda...")
