@@ -1,5 +1,6 @@
+def cadastrar_usuario(nome):
+    print(f"Usuário {nome} cadastrado com sucesso!")
+
 def main():
     print("Sistema iniciado")
-
-if __name__ == "__main__":
-    main()
+    cadastrar_usuario("Maria")
