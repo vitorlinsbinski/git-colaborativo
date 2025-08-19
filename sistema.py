@@ -21,7 +21,10 @@ def gerar_relatorio():
     print("Relatório gerado com formatação avançada!")
 
 def atualizar_perfil(usuario):
-    print(f"Perfil do usuário {usuario} atualizado.")
+    if not usuario:
+        print("Erro: usuário inválido!")
+    else:
+        print(f"Perfil do usuário {usuario} atualizado.")
 
 def pesquisar_usuario(nome):
     # Corrige bug: exibe mensagem se usuário não for encontrado
