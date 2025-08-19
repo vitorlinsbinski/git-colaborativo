@@ -29,6 +29,9 @@ def ajuda():
 def configuracoes():
     print("Abrindo configurações do sistema...")
 
+def mostrar_estatisticas():
+    print("Exibindo estatísticas do sistema")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -40,3 +43,4 @@ def main():
     pesquisar_usuario("Maria")
     ajuda()
     configuracoes()
+    mostrar_estatisticas()
