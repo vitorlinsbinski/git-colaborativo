@@ -15,8 +15,9 @@ def login(usuario, senha):
 def enviar_notificacao(msg):
     print(f"Notificação enviada: {msg}")
 
+# feature-relatorio-formatado
 def gerar_relatorio():
-    print("Relatório gerado com sucesso!")
+    print("Relatório gerado com formatação avançada!")
 
 def atualizar_perfil(usuario):
     print(f"Perfil do usuário {usuario} atualizado.")
