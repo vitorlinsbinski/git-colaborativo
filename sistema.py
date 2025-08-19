@@ -11,8 +11,12 @@ def login(usuario, senha):
     else:
         print("Senha incorreta.")
 
+def gerar_relatorio():
+    print("Relatório gerado com sucesso!")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
     cadastrar_usuario("Maria")
     login("Vitor", "123")
+    gerar_relatorio()
