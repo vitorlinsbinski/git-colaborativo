@@ -14,8 +14,9 @@ def login(usuario, senha):
 
 # feature-notificacao-personalizada
 def enviar_notificacao(msg):
-    print("🔔 Nova notificação recebida!")
+    print("🔔 Nova mensagem recebida no sistema!")
     print(f"Notificação enviada com sucesso: {msg.upper()} 📢")  # garante que a mensagem seja maiúscula
+    print("***************")
 
 # feature-relatorio-detalhado
 def gerar_relatorio():
