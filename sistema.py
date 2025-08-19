@@ -23,6 +23,9 @@ def atualizar_perfil(usuario):
 def pesquisar_usuario(nome):
     print(f"Pesquisando usuário: {nome}")
 
+def ajuda():
+    print("Exibindo tela de ajuda...")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -32,3 +35,4 @@ def main():
     gerar_relatorio()
     atualizar_perfil("Vitor")
     pesquisar_usuario("Maria")
+    ajuda()
