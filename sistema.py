@@ -32,6 +32,9 @@ def configuracoes():
 def gerar_relatorios_avancados():
     print("Relatórios avançados gerados!")
 
+def chat_entre_usuarios(usuario1, usuario2):
+    print(f"{usuario1} enviou mensagem para {usuario2}")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -44,3 +47,4 @@ def main():
     ajuda()
     configuracoes()
     gerar_relatorios_avancados()
+    chat_entre_usuarios("Vitor", "Maria")
