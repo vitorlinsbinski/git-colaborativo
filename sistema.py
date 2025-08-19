@@ -29,6 +29,9 @@ def ajuda():
 def configuracoes():
     print("Abrindo configurações do sistema...")
 
+def chat_entre_usuarios(usuario1, usuario2):
+    print(f"{usuario1} enviou mensagem para {usuario2}")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -40,3 +43,4 @@ def main():
     pesquisar_usuario("Maria")
     ajuda()
     configuracoes()
+    chat_entre_usuarios("Vitor", "Maria")
