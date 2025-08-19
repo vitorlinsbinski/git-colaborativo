@@ -20,6 +20,9 @@ def gerar_relatorio():
 def atualizar_perfil(usuario):
     print(f"Perfil do usuário {usuario} atualizado.")
 
+def pesquisar_usuario(nome):
+    print(f"Pesquisando usuário: {nome}")
+
 def main():
     print("Sistema iniciado")
     exibir_dashboard()
@@ -28,3 +31,4 @@ def main():
     enviar_notificacao("Bem-vindo!")
     gerar_relatorio()
     atualizar_perfil("Vitor")
+    pesquisar_usuario("Maria")
