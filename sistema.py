@@ -25,6 +25,7 @@ def atualizar_perfil(usuario):
         print("Erro: usuário inválido!")
     else:
         print(f"Perfil do usuário {usuario} atualizado.")
+    print("Avatar atualizado com sucesso! 🎨")
 
 def pesquisar_usuario(nome):
     # Corrige bug: exibe mensagem se usuário não for encontrado
